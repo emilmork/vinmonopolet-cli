@@ -1,0 +1,17 @@
+{
+  "name": "vinmonopolet-cli",
+  "version": "1.0.0",
+  "description": "cli for searching products on vinmonopolet",
+  "main": "vmp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emil Mork <emil.a.mork@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "marked": "^0.3.5",
+    "marked-terminal": "^1.6.1",
+    "vinmonopolet": "^2.0.2"
+  }
+}
