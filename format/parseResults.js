@@ -1,10 +1,23 @@
 module.exports = (products) => {
-  return new Promise((resolv, reject) => {
-
-      
-
-
-
+  return new Promise((resolve, reject) => {
+       resolve(
+        products.map((product) => {
+          return { 
+              id: product.sku, 
+              name: product.title, 
+              price: product.price, 
+              size: product.containerSize,
+              description: product.aroma,
+              food: parseFood(product),
+              url: product.url }
+        })
+      ) 
 
   });
+}
+
+
+function parseFood(product) {
+  if (!product.foodPairings) return '';
+  return product.foodPairings.join(',');
 }

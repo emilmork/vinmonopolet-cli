@@ -1,10 +1,7 @@
 module.exports = (inputs) => {
-  return new Promise((resolv, reject) => {
+  return new Promise((resolve, reject) => {
 
-    
-
-
-
+    resolve({});
 
   });
 }
