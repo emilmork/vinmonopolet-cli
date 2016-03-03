@@ -6,6 +6,10 @@ marked.setOptions({
 });
 
 module.exports = (results) => {
+  if (!results || !results.length) {
+    console.log(marked('No products found`'));
+    return;
+  }
   console.log(marked('# Products \n' + productsMarked(results)));
 }
 

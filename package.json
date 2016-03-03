@@ -12,6 +12,7 @@
     "commander": "^2.9.0",
     "marked": "^0.3.5",
     "marked-terminal": "^1.6.1",
+    "request": "^2.69.0",
     "vinmonopolet": "^2.0.2"
   },
   "bin": {
