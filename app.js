@@ -8,7 +8,7 @@ var printResult = require('./format/printResults');
  
 program
 	.option('-s, --search [value]', "Search product")
-	.option('-n, --number <n>', 'Number of results (10 is default)');
+	//.option('-n, --number <n>', 'Number of results (10 is default)');
 	//.option('-t, --type [value]', 'Product type (beer, vine, liquire)')
 	//.option('-f, --food [value]', 'Type of food (meet, fish, chicken, cheese)');
 	
