@@ -23,6 +23,7 @@ program.on('--help', function(){
 
 if (!process.argv.slice(2).length) {
     program.outputHelp();
+    return;
   }
  
 program.parse(process.argv);
