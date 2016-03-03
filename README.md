@@ -2,20 +2,21 @@
 
 CLI to search for products on Vinmonopolet.
 
-![Image](https://www.dropbox.com/s/25oybuukf79i59h/vmp_cli.png?dl=1 "Logo Title Text 1")
+![Image](https://www.dropbox.com/s/25oybuukf79i59h/vmp_cli.png?dl=1)
 
 ## Installation
-
-`npm install -g vinmonopolet-cli`
+```bash
+$ npm install -g vinmonopolet-cli
+```
 
 ## Usage (command line)
 
 ```bash
-$ `vmp --help` List commands
+$ vmp --help // List commands
 ```
 
 ```bash
-$ `vmp -s` <title> // wildcards supported
+$ vmp -s <title> // wildcards supported
 ```
 
 
@@ -23,3 +24,5 @@ $ `vmp -s` <title> // wildcards supported
 
 * Filter on type
 * Filter on food pairings
+* Extract details
+* Stats
