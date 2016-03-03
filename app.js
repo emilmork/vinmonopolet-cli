@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var program = require('commander');
 var fetchProducts = require('./data/fetchProducts')
 var createQuery = require('./data/createQuery');
