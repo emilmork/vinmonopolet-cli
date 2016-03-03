@@ -1,6 +1,6 @@
 {
   "name": "vinmonopolet-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI for extracting information on products from Vinmonopolet",
   "main": "app.js",
   "scripts": {
